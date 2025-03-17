@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("query-form");
 
     form.addEventListener("submit", (event) => {
-        event.preventDefault(); // Prevent page reload
+        event.preventDefault();
         alert("Thank you for reaching out! We’ll get back to you soon.");
         form.reset();
     });
 
-    // Smooth scrolling effect
+    // scrolling effect
     document.querySelectorAll('.menu a').forEach(link => {
         link.addEventListener("click", function(event) {
             event.preventDefault();
